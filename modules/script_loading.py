@@ -2,7 +2,7 @@ import os
 import importlib.util
 
 from modules import errors
-from rich import print # pylint: disable=redefined-builtin
+#from rich import print # pylint: disable=redefined-builtin
 
 
 def load_module(path):
